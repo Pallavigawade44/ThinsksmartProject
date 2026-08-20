@@ -23,6 +23,7 @@ namespace DemoProject.Controllers
             return View();
         }
         //This is my code
+        //Commented line
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
