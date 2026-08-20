@@ -22,7 +22,7 @@ namespace DemoProject.Controllers
         {
             return View();
         }
-
+        //This is my code
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
