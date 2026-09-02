@@ -23,11 +23,12 @@ namespace DemoProject.Controllers
             return View();
         }
         //This is my code 
-        
+        //Public adddingnew action method to the HomeController class to handle the About page request.
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
+        
     }
 }
